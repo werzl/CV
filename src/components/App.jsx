@@ -1,6 +1,6 @@
 import React from "react";
 
-import CvNavbar from "./CvNavbar/CVNavbar";
+import CvNavbar from "./CvNavbar/CvNavbar";
 
 import "../bootstrap.css";
 
