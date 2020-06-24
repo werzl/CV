@@ -28,6 +28,11 @@ const CvNavbar = () => {
                                 <Nav.Link href="#education">Education</Nav.Link>
                             </Scrollspy>
                         </Nav.Item>
+                        <Nav.Item>
+                            <Scrollspy items={["experience-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
+                                <Nav.Link href="#experience">Experience</Nav.Link>
+                            </Scrollspy>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </div>

@@ -9,6 +9,8 @@ import Skills from "./Skills/Skills";
 
 import Education from "./Education/Education";
 
+import Experience from "./Experience/Experience";
+
 import "../bootstrap.css";
 
 const App = () => {
@@ -23,6 +25,8 @@ const App = () => {
             <Skills />
 
             <Education />
+
+            <Experience />
         </div>
     );
 };
