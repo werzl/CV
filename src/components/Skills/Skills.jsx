@@ -5,6 +5,8 @@ import Table from "react-bootstrap/Table";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import OperatingSystems from "./OperatingSystems";
 
+import "./skills.scss";
+
 const skills = [
     { title: "C#", confidence: 100 },
     { title: "HTML", confidence: 100 },
