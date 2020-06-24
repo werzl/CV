@@ -8,7 +8,7 @@
   "homepage": "https://werzl.github.io/cv/",
   "scripts": {
     "start": "webpack-dev-server --mode development --env.NODE_ENV=local",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --env.NODE_ENV=production",
     "test": "jest --watch"
   },
   "dependencies": {
