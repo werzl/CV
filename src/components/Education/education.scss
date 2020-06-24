@@ -1,7 +1,16 @@
 #education {
+    min-height: 820px;
+
     img {
         max-width: 11rem;
         max-height: 4rem;
         margin-bottom: 1rem;
+    }
+
+    @media (min-width: 992px) {
+        .list-group-item {
+            margin-top: 3rem !important;
+            margin-bottom: 3rem !important;
+        }
     }
 }

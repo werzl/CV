@@ -1,6 +1,7 @@
 import React from "react";
 
 import CvNavbar from "./CvNavbar/CvNavbar";
+
 import Masthead from "./Masthead/Masthead";
 
 import Profile from "./Profile/Profile";
@@ -11,23 +12,31 @@ import Education from "./Education/Education";
 
 import Experience from "./Experience/Experience";
 
+import Achievements from "./Achievements/Achievements";
+
 import "../bootstrap.css";
 
 const App = () => {
     return (
-        <div className="container">
+        <>
             <CvNavbar />
 
             <Masthead />
 
-            <Profile />
+            <div className="container">
+                <Profile />
 
-            <Skills />
+                <Skills />
 
-            <Education />
+                <Education />
 
-            <Experience />
-        </div>
+                <Experience />
+
+                <Achievements />
+
+                <h6 className="ml-5 mb-5">References are available upon request.</h6>
+            </div>
+        </>
     );
 };
 
