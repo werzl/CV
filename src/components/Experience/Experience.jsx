@@ -90,7 +90,7 @@ const Experience = () => {
                                         <ul>
                                             {job.details.map(detail => {
                                                 return (
-                                                    <li key={job.key}>{detail}</li>
+                                                    <li key={detail}>{detail}</li>
                                                 );
                                             })}
                                         </ul>
