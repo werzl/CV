@@ -1,13 +1,13 @@
 import React from "react";
 
-import "./socialIcons.scss";
+import "./masthead.scss";
 
 const socialAccounts = [
     { id: "github", url: "https://github.com/Werzl" },
     { id: "linkedin", url: "https://www.linkedin.com/in/ahewit/" },
     { id: "twitter", url: "https://twitter.com/Werzl" },
     { id: "medium", url: "https://medium.com/@ahewitt_89859" }
-]
+];
 
 const Masthead = () => {
     return (
@@ -27,13 +27,15 @@ const Masthead = () => {
                     .
                     {socialAccounts.map((account) => {
                         return (
-                            <>
-                                <a key={account.id} className="social-link" href={account.url} target="_blank" rel="noreferrer">
-                                    <svg className="social-icon" id={account.id}></svg>
+                            <span key={account.id}>
+                                <a className="social-link" href={account.url} target="_blank" rel="noreferrer">
+                                    <span className="social-icon">
+                                        <svg id={account.id}></svg>
+                                    </span>
                                 </a>
-
+                                
                                 .
-                            </>
+                            </span>
                         );
                     })}
                 </p>

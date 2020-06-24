@@ -2,14 +2,6 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import "./operatingSystemIcons.scss";
-
-const operatingSystems = [
-    "windows",
-    "ubuntu",
-    "kalilinux"
-];
-
 const OperatingSystems = () => {
     return (
         <div className="mb-5 text-center">
@@ -17,16 +9,24 @@ const OperatingSystems = () => {
             <hr />
 
             <Row className="overflow-hidden">
-                {operatingSystems.map(os => {
-                    return (
-                        <Col key={os}>
-                            <div className="os-btn flex-center mb-5">
-                                <svg id={os}></svg>
-                                <span>{os}</span>
-                            </div>
-                        </Col>
-                    );
-                })}
+                <Col>
+                    <div className="mb-5">
+                        <svg className="os-icon" id="windows"></svg>
+                        <span>Windows</span>
+                    </div>
+                </Col>
+                <Col>
+                    <div className="mb-5">
+                        <svg className="os-icon" id="ubuntu"></svg>
+                        <span>Ubuntu</span>
+                    </div>
+                </Col>
+                <Col>
+                    <div className="mb-5">
+                        <svg className="os-icon" id="kalilinux"></svg>
+                        <span>Kali Linux</span>
+                    </div>
+                </Col>
             </Row>
         </div>
     );

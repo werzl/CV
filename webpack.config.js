@@ -53,6 +53,18 @@ module.exports = {
                     "sass-loader"
                 ],
                 exclude: /\.module\.(css|scss)$/
+            },
+            {
+                test: /\.(gif|jpg|png|svg)(\?v=\d+\.\d+\.\d+)?$/,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: "[name].[ext]",
+                            outputPath: "img/"
+                        }
+                    }
+                ]
             }
         ]
     },
