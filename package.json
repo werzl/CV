@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "https://werzl.github.io/cv/",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --env.NODE_ENV=local",
     "build": "webpack --mode production",
     "test": "jest --watch"
   },
