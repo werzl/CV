@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 const Achievements = () => {
     return (
-        <section className="page-section" id="Achievements">
+        <section className="page-section" id="achievements">
             <div id="achievements-scrollspy"></div>
             <div className="pt-4 mx-4">
                 <h2 className="page-section-heading text-center mb-5">Achievements && Interests</h2>
