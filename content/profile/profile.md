@@ -1,5 +1,5 @@
-A Bachelor of Computer Science, and full-stack Software Developer.<br />
-<br />
+A Bachelor of Computer Science, and full-stack Software Developer.  
+  
 In my current role, I'm leading the push to adopt React (as a means to prototype and experiment with
 frontend technology other than jQuery).<br />
 <br />
