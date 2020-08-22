@@ -1,0 +1,46 @@
+[
+    {
+       "img":"https://raw.githubusercontent.com/werzl/CV/master/content/education/essex-university-logo.gif",
+       "title":"University of Essex",
+       "dateFrom":"2015",
+       "dateTo":"2018",
+       "details":[
+          {
+             "key":"(BSc) Bachelor's Degree in Computer Science",
+             "value":""
+          },
+          {
+             "key":"Grade",
+             "value":"2:1"
+          },
+          {
+             "key":"Modules",
+             "value":"Information Retrieval, Natural Language Engineering, Object-Oriented Programming, Web Development, Data-Structures & Algorithms, Software Engineering and Computer Vision."
+          }
+       ]
+    },
+    {
+       "img":"https://raw.githubusercontent.com/werzl/CV/master/content/education/havering-college-logo.png",
+       "title":"Havering College",
+       "dateFrom":"2012",
+       "dateTo":"2014",
+       "details":[
+          {
+             "key":"A Level",
+             "value":"BTEC Level 3 Extended Diploma - Distinction/Distinction/Merit (A, A, C at A-Level)"
+          }
+       ]
+    },
+    {
+       "img":"https://raw.githubusercontent.com/werzl/CV/master/content/education/redden-court-logo.png",
+       "title":"Redden Court School",
+       "dateFrom":"2007",
+       "dateTo":"2012",
+       "details":[
+          {
+             "key":"GCSE",
+             "value":"IT: B, Mathematics: B, English: C, History: B, Science: C, Geography: C"
+          }
+       ]
+    }
+ ]
