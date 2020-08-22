@@ -1,0 +1,38 @@
+[
+   {
+      "title":"React",
+      "confidence":90
+   },
+   {
+      "title":"GitHub Actions",
+      "confidence":90
+   },
+   {
+      "title":"Azure DevOps",
+      "confidence":90
+   },
+   {
+      "title":"AWS",
+      "confidence":80
+   },
+   {
+      "title":"Azure",
+      "confidence":70
+   },
+   {
+      "title":"NPM",
+      "confidence":70
+   },
+   {
+      "title":"Webpack/Babel",
+      "confidence":70
+   },
+   {
+      "title":"Vue.js",
+      "confidence":60
+   },
+   {
+      "title":"Jira",
+      "confidence":55
+   }
+]
