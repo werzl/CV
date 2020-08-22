@@ -6,8 +6,10 @@ on:
 
 jobs:
 
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    env:
+      working-directory: ./gh-pages
     
     steps:
     - uses: actions/checkout@v2
@@ -16,13 +18,15 @@ jobs:
 
     - name: Installation ⏳
       run: yarn
+      working-directory: ${{env.working-directory}}
    
     - name: Build 🧱
       run: yarn build
+      working-directory: ${{env.working-directory}}
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist
+        FOLDER: gh-pages/dist
