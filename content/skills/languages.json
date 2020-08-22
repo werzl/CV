@@ -1,0 +1,11 @@
+[
+    { title: "C#", confidence: 100 },
+    { title: "HTML", confidence: 100 },
+    { title: "SQL", confidence: 100 },
+    { title: "Python", confidence: 90 },
+    { title: "JavaScript", confidence: 90 },
+    { title: "ES6", confidence: 80 },
+    { title: "jQuery", confidence: 80 },
+    { title: "Typescript", confidence: 60 },
+    { title: "CSS & SASS", confidence: 60 }
+]
