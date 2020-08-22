@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
@@ -7,31 +7,58 @@ import OperatingSystems from "./OperatingSystems";
 
 import "./skills.scss";
 
-const skills = [
-    { title: "C#", confidence: 100 },
-    { title: "HTML", confidence: 100 },
-    { title: "SQL", confidence: 100 },
-    { title: "Python", confidence: 90 },
-    { title: "JavaScript", confidence: 90 },
-    { title: "ES6", confidence: 80 },
-    { title: "jQuery", confidence: 80 },
-    { title: "Typescript", confidence: 60 },
-    { title: "CSS & SASS", confidence: 60 },
-];
-
-const tools = [
-    { title: "React", confidence: 90 },
-    { title: "GitHub Actions", confidence: 90 },
-    { title: "Azure DevOps", confidence: 90 },
-    { title: "AWS", confidence: 80 },
-    { title: "Azure", confidence: 70 },
-    { title: "NPM", confidence: 70 },
-    { title: "Webpack/Babel", confidence: 70 },
-    { title: "Vue.js", confidence: 60 },
-    { title: "Jira", confidence: 55 }
-];
-
 const Skills = () => {
+    const [languages, setLanguages] = useState([]);
+    const [tools, setTools] = useState([]);
+
+    const languagesUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/skills/languages.json";
+    const toolsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/skills/tools.json";
+
+    const fetchLanguages = useCallback(async (url) => {
+        try {
+            const response = await fetch(url, {
+                method: "GET"
+            });
+
+            let responseString = await response.json();
+
+            if (response.ok) {
+                setLanguages(responseString);
+            }
+            else {
+                console.error(`Error ${response.status}. ${responseString}`);
+            }
+        }
+        catch (e) {
+            console.error(e);
+        }
+    }, [setLanguages]);
+
+    const fetchTools = useCallback(async (url) => {
+        try {
+            const response = await fetch(url, {
+                method: "GET"
+            });
+
+            let responseString = await response.json();
+
+            if (response.ok) {
+                setTools(responseString);
+            }
+            else {
+                console.error(`Error ${response.status}. ${responseString}`);
+            }
+        }
+        catch (e) {
+            console.error(e);
+        }
+    }, [setTools]);
+
+    useEffect(() => {
+        fetchLanguages(languagesUrl);
+        fetchTools(toolsUrl);
+    }, []);
+
     return (
         <section className="page-section" id="skills">
             <div id="skills-scrollspy" className="h-50"><p></p></div>
@@ -45,7 +72,7 @@ const Skills = () => {
                 </Row>
 
                 <Row>
-                    <Col md={6} className="mb-4">                    
+                    <Col md={6} className="mb-4">
                         <Table>
                             <thead>
                                 <tr>
@@ -79,11 +106,11 @@ const Skills = () => {
                             </thead>
 
                             <tbody>
-                                {skills.map(skill => {
+                                {languages.map(language => {
                                     return (
-                                        <tr key={skill.title}>
-                                            <th className="pl-4 w-25">{skill.title}</th>
-                                            <td><ProgressBar animated now={skill.confidence} /></td>
+                                        <tr key={language.title}>
+                                            <th className="pl-4 w-25">{language.title}</th>
+                                            <td><ProgressBar animated now={language.confidence} /></td>
                                         </tr>
                                     );
                                 })}

@@ -8,7 +8,7 @@ const Profile = () => {
 
     const profileContentUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/profile/profile.md";
 
-    const fetchMdContent = useCallback(async (url) => {
+    const fetchProfileContent = useCallback(async (url) => {
         try {
             const response = await fetch(url,{
                 method: "GET"                
@@ -29,7 +29,7 @@ const Profile = () => {
     }, [setMarkdownContent]);
 
     useEffect(() => {
-        fetchMdContent(profileContentUrl);
+        fetchProfileContent(profileContentUrl);
     }, []);
 
     return (
