@@ -1,0 +1,9 @@
+[
+    {
+        "title": "test",
+        "link": "www.google.com",
+        "details": [
+            {"key": "test", "value": "test"}
+        ]
+    }
+]
