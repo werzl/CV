@@ -41,8 +41,8 @@ const Projects = () => {
 
 
     return (
-        <section className="page-section" id="education">
-            <div id="education-scrollspy"></div>
+        <section className="page-section" id="projects">
+            <div id="projects-scrollspy"></div>
             <div className="pt-4 mx-4">
                 <h2 className="page-section-heading text-center mb-5">Projects</h2>
 
