@@ -8,6 +8,8 @@ import Profile from "./Profile/Profile";
 
 import Skills from "./Skills/Skills";
 
+import Projects from "./Projects/Projects";
+
 import Education from "./Education/Education";
 
 import Experience from "./Experience/Experience";
@@ -27,6 +29,8 @@ const App = () => {
                 <Profile />
 
                 <Skills />
+
+                <Projects />
 
                 <Education />
 
