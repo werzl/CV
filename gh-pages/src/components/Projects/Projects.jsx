@@ -1,43 +1,39 @@
-// import React, {useState, useCallback, useEffect} from "react";
-import React from "react";
+import React, {useState, useCallback, useEffect} from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
-import projectData from "./projects.json";
-
 import "./projects.scss";
 
 const Projects = () => {
-    const projects = projectData;
-    // const [projects, setProjects] = useState([]);
+    const [projects, setProjects] = useState([]);
 
-    // const projectsUrl = ";"
+    const projectsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/projects/projects.json";
 
-    // const fetchProjects = useCallback(async (url) => {
-    //     try {
-    //         const response = await fetch(url, {
-    //             method: "GET"
-    //         });
+    const fetchProjects = useCallback(async (url) => {
+        try {
+            const response = await fetch(url, {
+                method: "GET"
+            });
 
-    //         let responseString = await response.json();
+            let responseString = await response.json();
 
-    //         if (response.ok) {
-    //             setProjects(responseString);
-    //         }
-    //         else {
-    //             console.error(`Error ${response.status}. ${responseString}`);
-    //         }
-    //     }
-    //     catch (e) {
-    //         console.error(e);
-    //     }
-    // }, [setProjects]);
+            if (response.ok) {
+                setProjects(responseString);
+            }
+            else {
+                console.error(`Error ${response.status}. ${responseString}`);
+            }
+        }
+        catch (e) {
+            console.error(e);
+        }
+    }, [setProjects]);
 
-    // useEffect(() => {
-    //     fetchProjects(projectsUrl);
-    // }, []);
+    useEffect(() => {
+        fetchProjects(projectsUrl);
+    }, []);
 
 
     return (
