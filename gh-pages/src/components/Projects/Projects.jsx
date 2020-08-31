@@ -4,8 +4,6 @@ import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
-import "./projects.scss";
-
 const Projects = () => {
     const [projects, setProjects] = useState([]);
 
