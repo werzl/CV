@@ -2,6 +2,7 @@ import React, { useState, useCallback, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 
 import { HeadingRenderer } from "../common/HeadingRenderer";
+import { getSectionContent } from "../common/getSectionContent";
 
 const Profile = () => {
     const [markdownContent, setMarkdownContent] = useState("...");
@@ -10,18 +11,8 @@ const Profile = () => {
 
     const fetchProfileContent = useCallback(async (url) => {
         try {
-            const response = await fetch(url,{
-                method: "GET"                
-            });
-
-            let responseString = await response.text();
-
-            if (response.ok) {
-                setMarkdownContent(responseString);
-            }
-            else {
-                console.error(`Error ${response.status}. ${responseString}`);
-            }
+            const content = await getSectionContent(url, { returnType: "text" });
+            setMarkdownContent(content);
         }
         catch (e) {
             console.error(e);

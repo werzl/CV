@@ -20,7 +20,7 @@ const Masthead = () => {
                 <h1 className="masthead-heading text-uppercase mb-0">Adam Hewitt</h1>
 
                 <p className="masthead-subheading">
-                    Software Engineer && UI/UX Squad Lead
+                    Software Developer at Glasswall Solutions Ltd
                 </p>
 
                 <p className="masthead-subheading">
