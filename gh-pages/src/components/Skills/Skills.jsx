@@ -5,6 +5,8 @@ import Table from "react-bootstrap/Table";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import OperatingSystems from "./OperatingSystems";
 
+import { getSectionContent } from "../common/getSectionContent";
+
 import "./skills.scss";
 
 const Skills = () => {
@@ -14,49 +16,21 @@ const Skills = () => {
     const languagesUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/skills/languages.json";
     const toolsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/skills/tools.json";
 
-    const fetchLanguages = useCallback(async (url) => {
+    const fetchSkillsContent = useCallback(async (languagesUrl, toolsUrl) => {
         try {
-            const response = await fetch(url, {
-                method: "GET"
-            });
+            const languages = await getSectionContent(languagesUrl);
+            setLanguages(languages);
 
-            let responseString = await response.json();
-
-            if (response.ok) {
-                setLanguages(responseString);
-            }
-            else {
-                console.error(`Error ${response.status}. ${responseString}`);
-            }
+            const tools = await getSectionContent(toolsUrl);
+            setTools(tools);
         }
         catch (e) {
             console.error(e);
         }
-    }, [setLanguages]);
-
-    const fetchTools = useCallback(async (url) => {
-        try {
-            const response = await fetch(url, {
-                method: "GET"
-            });
-
-            let responseString = await response.json();
-
-            if (response.ok) {
-                setTools(responseString);
-            }
-            else {
-                console.error(`Error ${response.status}. ${responseString}`);
-            }
-        }
-        catch (e) {
-            console.error(e);
-        }
-    }, [setTools]);
+    }, [setLanguages, setTools]);   
 
     useEffect(() => {
-        fetchLanguages(languagesUrl);
-        fetchTools(toolsUrl);
+        fetchSkillsContent(languagesUrl, toolsUrl);
     }, []);
 
     return (

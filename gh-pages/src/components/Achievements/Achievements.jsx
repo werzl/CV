@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import ReactMarkdown from "react-markdown";
+
+import { HeadingRenderer } from "../common/HeadingRenderer";
+import { MarkdownLinkRenderer } from "../common/MarkdownLinkRenderer";
+import { getSectionContent } from "../common/getSectionContent";
 
 const Achievements = () => {
+    const [markdownContent, setMarkdownContent] = useState("...");
+
+    const achievementsContentUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/achievements-and-interests/achievements-and-interests.md";
+
+    const fetchAchievementsContent = useCallback(async (url) => {
+        try {
+            const content = await getSectionContent(url, { returnType: "text" });
+            setMarkdownContent(content);
+        }
+        catch (e) {
+            console.error(e);
+        }
+    }, [setMarkdownContent]);
+
+    useEffect(() => {
+        fetchAchievementsContent(achievementsContentUrl);
+    }, []);
+
     return (
         <section className="page-section" id="achievements">
             <div id="achievements-scrollspy"></div>
@@ -12,19 +35,7 @@ const Achievements = () => {
                 <Row>
                     <Col md="1"></Col>
                     <Col md="11">
-                        <p>
-                            Outside of University, my main interests include fitness
-                            (last September I completed Tough Mudder for the third time, a team-building 12k mud run)
-                            and cooking (this summer, I've had some experience working in a family-owned pub as a chef).
-                        </p>
-
-                        <ul>
-                            <li>Jack Petchey’s Speak out challenge.</li>
-                            <li>Full UK driving license.</li>
-                            <li>University of Essex Dean’s list of excellence.</li>
-                            <li>PC Gaming.</li>
-                            <li>Blogging (see my <a href="https://medium.com/@ahewitt_89859" target="_blank" rel="noreferrer">Medium</a> profile).</li>
-                        </ul>
+                        <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer, link: MarkdownLinkRenderer }} />
                     </Col>
                 </Row>
             </div>

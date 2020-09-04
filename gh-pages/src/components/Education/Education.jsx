@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
+import { getSectionContent } from "../common/getSectionContent";
+
 import "./education.scss";
 
 const Education = () => {
@@ -13,28 +15,17 @@ const Education = () => {
 
     const fetchSchools = useCallback(async (url) => {
         try {
-            const response = await fetch(url, {
-                method: "GET"
-            });
-
-            let responseString = await response.json();
-
-            if (response.ok) {
-                setSchools(responseString);
-            }
-            else {
-                console.error(`Error ${response.status}. ${responseString}`);
-            }
+            const content = await getSectionContent(url);
+            setSchools(content);
         }
         catch (e) {
             console.error(e);
         }
-    }, [setSchools]);
+    }, [setSchools]);   
 
     useEffect(() => {
         fetchSchools(schoolsUrl);
-    }, []);
-
+    }, []);    
 
     return (
         <section className="page-section" id="education">

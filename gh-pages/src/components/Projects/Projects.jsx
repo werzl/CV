@@ -1,8 +1,10 @@
-import React, {useState, useCallback, useEffect} from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
+
+import { getSectionContent } from "../common/getSectionContent";
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -11,23 +13,13 @@ const Projects = () => {
 
     const fetchProjects = useCallback(async (url) => {
         try {
-            const response = await fetch(url, {
-                method: "GET"
-            });
-
-            let responseString = await response.json();
-
-            if (response.ok) {
-                setProjects(responseString);
-            }
-            else {
-                console.error(`Error ${response.status}. ${responseString}`);
-            }
+            const content = await getSectionContent(url);
+            setProjects(content);
         }
         catch (e) {
             console.error(e);
         }
-    }, [setProjects]);
+    }, [setProjects]);   
 
     useEffect(() => {
         fetchProjects(projectsUrl);

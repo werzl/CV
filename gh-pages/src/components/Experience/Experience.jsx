@@ -2,6 +2,8 @@ import React, { useState, useCallback, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import { getSectionContent } from "../common/getSectionContent";
+
 import "./experience.scss";
 
 const Experience = () => {
@@ -11,18 +13,8 @@ const Experience = () => {
 
     const fetchJobs = useCallback(async (url) => {
         try {
-            const response = await fetch(url, {
-                method: "GET"
-            });
-
-            let responseString = await response.json();
-
-            if (response.ok) {
-                setJobs(responseString);
-            }
-            else {
-                console.error(`Error ${response.status}. ${responseString}`);
-            }
+            const content = await getSectionContent(url);
+            setJobs(content);
         }
         catch (e) {
             console.error(e);
