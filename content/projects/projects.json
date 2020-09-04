@@ -20,8 +20,8 @@
         "description": "One project I started with a friend recently, jdmcserver, is a Minecraft server hosted in an AWS EC2 instance. As well as a static frontend which communicates with an API hosted on AWS API Gateway. The API connects Lambda functions, which toggle the running status of the EC2 instance, and expose the server’s details."
     },
     {
-        "title": "WiFi Code QR Generator",
-        "link": "https://github.com/AlexEbbage/react-node-lambda-qr-generator",
-        "description": "A tool that takes a WiFi login and generates a QR code that when scanned; prompts modern smart phones to join the network."
+        "title": "This Website!",
+        "link": "https://github.com/werzl/CV",
+        "description": "This CV is actually a React/Webpack static site.  I wanted to version-control the web pages for the CV, but also the content. I needed a way to quickly make a change and see it propogate instantly on the frontend. I decided to go with GitHub, in order to make it open. An added bonus is a free proof-read; if a friend or potential employer spots a mistake or wants to suggest an improvement, they can create a pull request on this repository! :)"
     }
 ]
