@@ -7,4 +7,4 @@ In my current role, I'm leading the push to adopt React as a means to prototype 
 Lately, I find myself in small development 'squads'; while following an Agile Framework similar to the Spotify Model.  
 I enjoy working as part of these small, high-impact teams. Partly because of the relative autonomy, but mainly because it exposed me as a professional to tons of people within the company. I got to know so many different personalities and when a squad works well together, the results are definitely noticable!
   
-I see software development as a major interest and have always maintained a balance of work and personal projects.
+I see software development as a major interest and try to maintain a balance of work and personal projects.
