@@ -4,7 +4,9 @@ I love problem solving, and when I'm not swearing at my PC because my lambda fun
   
 In my current role, I'm leading the push to adopt React as a means to prototype and experiment.  
   
-Lately, I find myself in small development 'squads'; while following an Agile Framework similar to the Spotify Model.  
-I enjoy working as part of these small, high-impact teams. Partly because of the relative autonomy, but mainly because it exposed me as a professional to tons of people within the company. I got to know so many different personalities and when a squad works well together, the results are definitely noticable!
+Lately, I find myself in development 'squads' while following an Agile Framework similar to the Spotify Model.  
+I enjoy working as part of these small, high-impact teams. Partly because of the relative autonomy, but mainly because it exposed me as a professional to tons of people within the company.  
+  
+I got to know so many different personalities and when a squad works well together, the results are definitely noticable!
   
 I see software development as a major interest and try to maintain a balance of work and personal projects.
