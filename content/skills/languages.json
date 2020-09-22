@@ -29,10 +29,10 @@
    },
    {
       "title":"Typescript",
-      "confidence":60
+      "confidence":80
    },
    {
       "title":"CSS & SASS",
-      "confidence":60
+      "confidence":75
    }
 ]
