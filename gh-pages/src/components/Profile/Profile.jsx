@@ -4,6 +4,8 @@ import ReactMarkdown from "react-markdown";
 import { HeadingRenderer } from "../common/HeadingRenderer";
 import { getSectionContent } from "../common/getSectionContent";
 
+import "./Profile.scss";
+
 const Profile = () => {
     const [markdownContent, setMarkdownContent] = useState("...");
 
@@ -28,7 +30,7 @@ const Profile = () => {
             <div className="mx-4">
                 <h2 className="page-section-heading text-center mb-5">Profile</h2>
 
-                <div className="w-100 text-center">
+                <div className="profileText">
                     <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer }} />
                 </div>
             </div>
