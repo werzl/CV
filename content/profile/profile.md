@@ -7,6 +7,6 @@ In my current role, I'm working with both Azure and AWS to build cloud-agnostic,
 Lately, I've been working in development 'squads' while following an Agile Framework similar to the Spotify Model.  
 I enjoy working as part of these small, high-impact teams. Partly because of the relative autonomy, but mainly because it exposed me as a professional to tons of people within the company. I also find the weekly-release culture very rewarding.  
   
-I got to know so many different personalities and when a squad works well together, the results are definitely noticable!
+I got to know so many different personalities and when a squad works well together, the results are noticeable!
   
 I see software development as a major interest and try to maintain a balance of work and personal projects.
