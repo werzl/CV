@@ -21,14 +21,14 @@
    },
    {
       "title":"ES6",
-      "confidence":80
-   },
-   {
-      "title":"jQuery",
-      "confidence":80
+      "confidence":90
    },
    {
       "title":"Typescript",
+      "confidence":90
+   },   
+   {
+      "title":"jQuery",
       "confidence":80
    },
    {
