@@ -2,7 +2,7 @@
     {
         "title": "Glasswall ICAP - Management UI",
         "link": "https://github.com/filetrust/icap-management-ui",
-        "description": "The Management UI in the Glasswall ICAP Program, a dockerised expressJS server written in Typescript and Typescript-React and running in an AKS cluster. Currently hosted on dockerhub under the name: glasswallsolutions/icap-management-ui."
+        "description": "The Management UI in the Glasswall ICAP Program, a dockerised expressJS server written in Typescript and Typescript-React and running in an AKS cluster. Also hosted on dockerhub under the name: glasswallsolutions/icap-management-ui."
     },
     {
         "title": "Rebuild API - Automated Performance Testing",

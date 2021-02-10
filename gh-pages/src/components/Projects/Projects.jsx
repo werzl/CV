@@ -31,7 +31,7 @@ const Projects = () => {
             <div id="projects-scrollspy"></div>
             <div className="pt-4 mx-4">
                 <h2 className="page-section-heading text-center mb-5">Projects</h2>
-                <p className="text-center">Top 5 projects I'm involved in right now.</p>
+                <p className="text-center">Here are some projects I'm involved in right now.</p>
 
                 <ListGroup className="list-group-flush mt-5">
                     {projects.map(project => {
@@ -42,7 +42,8 @@ const Projects = () => {
                                         <h5>
                                             <a href={project.link}
                                                 target="_blank"
-                                                rel="noreferrer">{project.title}</a>
+                                                rel="noreferrer">{project.title}
+                                            </a>
                                         </h5>
                                     </Col>
                                 </Row>
