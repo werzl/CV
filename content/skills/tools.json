@@ -12,6 +12,14 @@
       "confidence":90
    },
    {
+      "title":"Testing Frameworks (NUnit, Jest, Puppeteer)",
+      "confidence":85
+   },
+   {
+      "title":".NET (MVC, Razor)",
+      "confidence":85
+   },
+   {
       "title":"AWS",
       "confidence":80
    },
@@ -30,13 +38,5 @@
    {
       "title":"Webpack/Babel",
       "confidence":70
-   },
-   {
-      "title":"Vue.js",
-      "confidence":60
-   },
-   {
-      "title":"Jira",
-      "confidence":55
    }
 ]
