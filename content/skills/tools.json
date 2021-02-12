@@ -12,6 +12,14 @@
       "confidence":90
    },
    {
+      "title":"Jest, Puppeteer",
+      "confidence":85
+   },
+   {
+      "title":".NET MVC",
+      "confidence":85
+   },
+   {
       "title":"AWS",
       "confidence":80
    },
@@ -24,19 +32,7 @@
       "confidence":70
    },
    {
-      "title":"NPM",
-      "confidence":70
-   },
-   {
       "title":"Webpack/Babel",
       "confidence":70
-   },
-   {
-      "title":"Vue.js",
-      "confidence":60
-   },
-   {
-      "title":"Jira",
-      "confidence":55
    }
 ]
