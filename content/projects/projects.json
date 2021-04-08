@@ -15,6 +15,11 @@
         "description": "A Minimum Viable Product for demonstrations of the Automated Performance Tests on Glasswall's Rebuild API."
     },
     {
+        "title": "Glasswall's Frontend Style Guide",
+        "link": "https://filetrust.github.io/frontend/",
+        "description": "A frontend coding standards guideline, to enforce a consistent and maintainable frontend codebase."
+    },
+    {
         "title": "Glasswall Engineering",
         "link": "https://engineering.glasswallsolutions.com/",
         "description": "Documentation and resources for users of Glasswall Solutions' products."
