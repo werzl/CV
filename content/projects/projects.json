@@ -15,9 +15,9 @@
         "description": "Documentation and resources for users of Glasswall Solutions' products."
     },
     {
-        "title": "glasswall-react-app",
-        "link": "https://github.com/filetrust/glasswall-react-app",
-        "description": "The Glasswall React and Typescript template for Create React App."
+        "title": "Glasswall Rebuild for Email",
+        "link": "https://glasswallsolutions.com/rebuild-for-email/",
+        "description": "Integral part of the Cloud development team; working in .NET, docker and Kubernetes."
     },
     {
         "title": "jdmcserver",
