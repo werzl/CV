@@ -1,0 +1,18 @@
+#download_pdf {
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#download_pdf {
+    p {
+        position: relative;
+        height: 2rem;
+
+        &:hover {
+            transform: scale(1.25);
+            transition: transform 0.25s ease;
+        }
+    }
+}
