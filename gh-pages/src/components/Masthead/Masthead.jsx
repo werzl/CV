@@ -1,5 +1,7 @@
 import React from "react";
 
+import DownloadPdfButton from "../common/DownloadPdf/DownloadPdfButton";
+
 import "./masthead.scss";
 
 const socialAccounts = [
@@ -39,6 +41,8 @@ const Masthead = () => {
                         );
                     })}
                 </p>
+
+                <DownloadPdfButton />
             </div>
         </header >
     );

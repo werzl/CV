@@ -2,8 +2,11 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = env => {
-
     return {
+        externals: {
+            canvg: "canvg",
+            dompurify: "dompurify"
+        },
         resolve: {
             modules: [
                 path.resolve("./src"),
@@ -71,14 +74,14 @@ module.exports = env => {
                 }
             ]
         },
-        // devServer: {
-        //     contentBase: path.resolve(__dirname, "dist"),
-        //     port: 3000,
-        //     open: true,
-        //     historyApiFallback: {
-        //         index: "/"
-        //     },
-        // },
+        devServer: {
+            contentBase: path.resolve(__dirname, "dist"),
+            port: 3000,
+            open: true,
+            historyApiFallback: {
+                index: "/"
+            },
+        },
         plugins: [
             new HtmlWebpackPlugin({
                 template: "public/index.html",

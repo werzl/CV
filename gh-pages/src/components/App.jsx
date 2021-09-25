@@ -17,19 +17,15 @@ import Experience from "./Experience/Experience";
 import Achievements from "./Achievements/Achievements";
 
 import "../bootstrap.css";
-import DownloadPdfButton from "./common/DownloadPdf/DownloadPdfButton";
 
 const App = () => {
     return (
         <>
             <CvNavbar />
 
-
             <Masthead />
 
             <div className="container">
-                <DownloadPdfButton />
-
                 <Profile />
 
                 <Skills />
