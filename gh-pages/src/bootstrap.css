@@ -11083,7 +11083,7 @@ a.text-dark:focus {
 }
 
 .masthead {
-  padding-top: 9rem;
+  padding-top: 6rem;
   padding-bottom: 3rem;
   background-color: #bbbbbb !important;
 }
@@ -11104,7 +11104,7 @@ a.text-dark:focus {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: 11rem;
+    padding-top: 6rem;
     padding-bottom: 5rem;
   }
 

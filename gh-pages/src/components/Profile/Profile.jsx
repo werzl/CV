@@ -30,7 +30,7 @@ const Profile = () => {
             <div className="mx-4">
                 <h2 className="page-section-heading text-center mb-5">Profile</h2>
 
-                <div className="profileText">
+                <div className="profileText text-justify">
                     <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer }} />
                 </div>
             </div>

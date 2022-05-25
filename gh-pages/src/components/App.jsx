@@ -37,8 +37,6 @@ const App = () => {
                 <Experience />
 
                 <Achievements />
-
-                <h6 className="ml-5 mb-5">References are available upon request.</h6>
             </div>
         </>
     );
