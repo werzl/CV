@@ -8,7 +8,7 @@ const CvNavbar = () => {
     return (
         <Navbar collapseOnSelect fixed="top" expand="lg" bg="secondary" variant="dark" id="mainNav" className="text-uppercase">
             <div className="container">
-                <Navbar.Brand href="#">Adam Hewitt | CV </Navbar.Brand>
+                <Navbar.Brand href="#">AH</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                 <Navbar.Collapse id="navbarResponsive">
