@@ -1,5 +1,9 @@
 [
    {
+      "title":".NET",
+      "confidence":90
+   },
+   {
       "title":"React",
       "confidence":90
    },
@@ -8,27 +12,19 @@
       "confidence":90
    },
    {
-      "title":"Jest, Puppeteer",
-      "confidence":85
-   },
-   {
-      "title":".NET",
-      "confidence":85
-   },
-   {
-      "title":"AWS",
-      "confidence":80
-   },
-   {
       "title":"Docker",
       "confidence":80
    },
    {
-      "title":"Azure",
-      "confidence":70
+      "title":"Kubernetes",
+      "confidence":80
    },
    {
-      "title":"Webpack/Babel",
-      "confidence":70
+      "title":"Azure",
+      "confidence":80
+   },
+   {
+      "title":"AWS",
+      "confidence":75
    }
 ]
