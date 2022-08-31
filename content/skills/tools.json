@@ -4,10 +4,6 @@
       "confidence":90
    },
    {
-      "title":"GitHub Actions",
-      "confidence":90
-   },
-   {
       "title":"Azure DevOps",
       "confidence":90
    },
@@ -16,7 +12,7 @@
       "confidence":85
    },
    {
-      "title":".NET MVC",
+      "title":".NET",
       "confidence":85
    },
    {
