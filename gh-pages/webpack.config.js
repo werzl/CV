@@ -1,8 +1,14 @@
 const path = require("path");
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = env => {
     return {
+        resolve: {
+            fallback: {
+                "path": require.resolve("path")
+            }
+        },
         externals: {
             canvg: "canvg",
             dompurify: "dompurify"
@@ -75,7 +81,7 @@ module.exports = env => {
             ]
         },
         devServer: {
-            contentBase: path.resolve(__dirname, "dist"),
+            static: path.resolve(__dirname, "dist"),
             port: 3000,
             open: true,
             historyApiFallback: {
@@ -83,6 +89,7 @@ module.exports = env => {
             },
         },
         plugins: [
+            new NodePolyfillPlugin(),
             new HtmlWebpackPlugin({
                 template: "public/index.html",
                 favicon: "./public/favicon.ico",
