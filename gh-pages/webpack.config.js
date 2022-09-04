@@ -4,11 +4,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = env => {
     return {
-        resolve: {
-            fallback: {
-                "path": require.resolve("path")
-            }
-        },
         externals: {
             canvg: "canvg",
             dompurify: "dompurify"
