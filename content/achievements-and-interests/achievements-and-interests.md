@@ -1,5 +1,6 @@
 I'll keep it short and sweet:
   
+- Currently studying for the [CKAD](https://www.cncf.io/certification/ckad/) exam
 - Tough Mudder
 - [Microsoft Ignite London](https://myignite.microsoft.com/home)
 - [Open Security Summit](https://open-security-summit.org/)

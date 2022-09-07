@@ -2,32 +2,17 @@
      {
         "title": "Glasswall Rebuild for Email",
         "link": "https://glasswallsolutions.com/rebuild-for-email/",
-        "description": "Integral part of the Cloud development team; working in .NET, docker and Kubernetes."
+        "description": "Part of the release of a SaaS security offering; working in .NET, docker and Kubernetes."
     },
     {
-        "title": "Glasswall ICAP - Management UI",
-        "link": "https://github.com/filetrust/icap-management-ui",
-        "description": "The Management UI in the Glasswall ICAP Program, a dockerised expressJS server written in Typescript and Typescript-React and running in an AKS cluster. Also hosted on dockerhub under the name: glasswallsolutions/icap-management-ui."
-    },
-    {
-        "title": "Rebuild API - Automated Performance Testing",
-        "link": "https://github.com/filetrust/cloudsdk-rebuild-api-performance-tests",
-        "description": "A Minimum Viable Product for demonstrations of the Automated Performance Tests on Glasswall's Rebuild API."
-    },
-    {
-        "title": "Glasswall's Frontend Style Guide",
-        "link": "https://filetrust.github.io/frontend/",
-        "description": "A frontend coding standards guideline, to enforce a consistent and maintainable frontend codebase."
-    },
-    {
-        "title": "Glasswall Engineering",
-        "link": "https://engineering.glasswallsolutions.com/",
-        "description": "Documentation and resources for users of Glasswall Solutions' products."
+        "title": "Glasswall Desktop",
+        "link": "https://www.glasswall.com/solutions/apps/desktop-app/",
+        "description": "An Electron app supporting windows and mac OS. 'drag and drop files from the outside world into the Glasswall Embedded Engine'"
     },
     {
         "title": "jdmcserver",
         "link": "https://github.com/werzl/jdmcserver",
-        "description": "One project I started with a friend recently, jdmcserver, is a Minecraft server hosted in an AWS EC2 instance. As well as a static frontend which communicates with an API hosted on AWS API Gateway. The API connects Lambda functions, which toggle the running status of the EC2 instance, and expose the server’s details."
+        "description": "One project I started with a friend recently, jdmcserver, is a Minecraft server hosted in an AWS EC2 instance. As well as a static frontend and API hosted on AWS. The API connects Lambda functions, which toggle the running status of the EC2 instance, and expose the server's details."
     },
     {
         "title": "This Website!",

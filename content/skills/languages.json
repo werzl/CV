@@ -4,10 +4,6 @@
       "confidence":100
    },
    {
-      "title":"HTML",
-      "confidence":100
-   },
-   {
       "title":"SQL",
       "confidence":100
    },
@@ -17,10 +13,6 @@
    },
    {
       "title":"JavaScript",
-      "confidence":90
-   },
-   {
-      "title":"ES6",
       "confidence":90
    },
    {
