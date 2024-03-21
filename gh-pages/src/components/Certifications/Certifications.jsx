@@ -9,7 +9,7 @@ import "./certifications.scss";
 const Certifications = () => {
     const [certifications, setCertifications] = useState([]);
 
-    const certsUrl = "https://raw.githubusercontent.com/werzl/CV/add-certifications/content/certifications/certifications.json"; // TODO Update branch in here and in json files
+    const certsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/certifications/certifications.json"; // TODO Update branch in here and in json files
 
     const fetchCertifications = useCallback(async (url) => {
         try {
