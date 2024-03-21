@@ -42,7 +42,7 @@ const Education = () => {
                                     <Col>
                                         <h5>{school.title}</h5>
                                     </Col>
-                                    <Col md="2" className="text-center">
+                                    <Col md="2">
                                         <h6>{school.dateFrom}-{school.dateTo}</h6>
                                     </Col>
                                 </Row>

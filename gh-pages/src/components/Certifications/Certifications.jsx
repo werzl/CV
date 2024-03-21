@@ -37,7 +37,7 @@ const Certifications = () => {
                         <Row>
                             {certifications.map(cert => {
                                 return (
-                                    <Col className="text-center">
+                                    <Col className="text-center mt-5 pt-3" md="6" xs="12">
                                         <h4 className="certifications-title">{cert.title}</h4>
                                         <p className="certifications-descriptions">{cert.description}</p>
                                         <img src={cert.img} alt={cert.title} className="certifications-image" />
