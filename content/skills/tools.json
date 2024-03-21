@@ -1,30 +1,30 @@
 [
-   {
-      "title":".NET",
-      "confidence":90
-   },
-   {
-      "title":"Azure",
-      "confidence":90
-   },
-   {
-      "title":"React",
-      "confidence":90
-   },
-   {
-      "title":"Docker",
-      "confidence":80
-   },
-   {
-      "title":"Kubernetes",
-      "confidence":80
-   },
-   {
-      "title":"Azure",
-      "confidence":80
-   },
-   {
-      "title":"AWS",
-      "confidence":75
-   }
+    {
+        "title": ".NET",
+        "confidence": 100
+    },
+    {
+        "title": "Kubernetes",
+        "confidence": 100
+    },
+    {
+        "title": "Azure",
+        "confidence": 90
+    },
+    {
+        "title": "React",
+        "confidence": 85
+    },
+    {
+        "title": "Docker",
+        "confidence": 85
+    },
+    {
+        "title": "Azure",
+        "confidence": 75
+    },
+    {
+        "title": "AWS",
+        "confidence": 70
+    }
 ]
