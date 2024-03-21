@@ -16,6 +16,8 @@ import Experience from "./Experience/Experience";
 
 import Achievements from "./Achievements/Achievements";
 
+import Certifications from "./Certifications/Certifications";
+
 import "../bootstrap.css";
 
 const App = () => {
@@ -33,6 +35,8 @@ const App = () => {
                 <Projects />
 
                 <Experience />
+
+                <Certifications />
 
                 <Education />
 
