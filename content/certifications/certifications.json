@@ -1,0 +1,14 @@
+[
+    {
+        "img": "https://raw.githubusercontent.com/werzl/CV/master/content/certifications/ckad-certified-kubernetes-application-developer.png",
+        "title": "CKAD",
+        "description": "Certified Kubernetes Application Developer",
+        "link": "https://www.credly.com/badges/cd6493f1-ab8c-4bcd-8ae2-62a2dcec6fcf/public_url"
+    },
+    {
+        "img": "https://raw.githubusercontent.com/werzl/CV/master/content/certifications/certified-scrum-master.png",
+        "title": "CSM",
+        "description": "Certified Scrum Master",
+        "link": "https://bcert.me/sdnoyzdit"
+    }
+]
