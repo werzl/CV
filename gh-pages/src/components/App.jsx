@@ -32,9 +32,9 @@ const App = () => {
 
                 <Projects />
 
-                <Education />
-
                 <Experience />
+
+                <Education />
 
                 <Achievements />
             </div>
