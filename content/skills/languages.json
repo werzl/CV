@@ -20,10 +20,6 @@
         "confidence": 85
     },
     {
-        "title": "jQuery",
-        "confidence": 80
-    },
-    {
         "title": "CSS & SASS",
         "confidence": 75
     }
