@@ -8,7 +8,7 @@ const socialAccounts = [
     { id: "github", url: "https://github.com/Werzl" },
     { id: "linkedin", url: "https://www.linkedin.com/in/ahewit/" },
     { id: "twitter", url: "https://twitter.com/Werzl" },
-    { id: "medium", url: "https://medium.com/@ahewitt_89859" }
+    { id: "medium", url: "https://werzl.medium.com/" }
 ];
 
 const Masthead = () => {
@@ -18,7 +18,7 @@ const Masthead = () => {
                 <h1 className="masthead-heading text-uppercase mb-0">Adam Hewitt</h1>
 
                 <p className="masthead-subheading">
-                    Software Developer at Glasswall Solutions Ltd
+                    Software Developer / Team Lead at Glasswall Solutions Ltd
                 </p>
 
                 <p className="masthead-subheading">
