@@ -1,8 +1,13 @@
 [
      {
-        "title": "Glasswall Rebuild for Email",
-        "link": "https://glasswallsolutions.com/rebuild-for-email/",
-        "description": "Part of the release of a SaaS security offering; working in .NET, docker and Kubernetes."
+        "title": "Glasswall Halo",
+        "link": "https://docs.glasswall.com/docs/about-glasswall-halo",
+        "description": "Glasswall Halo is built upon powerful cloud-native architecture using scalable Kubernetes. CDR technology removes potential threats from unknown files in less than a second, without compromising the files contents."
+    },
+    {
+        "title": "Glasswall Constellations",
+        "link": "https://docs.glasswall.com/docs/about-glasswall-constellations",
+        "description": "By integrating with Glasswall Halo, Constellations processes large file containers with unparalleled speed and efficiency. Efficiently processing a 1TB data container in less than one hour."
     },
     {
         "title": "Glasswall Desktop",
