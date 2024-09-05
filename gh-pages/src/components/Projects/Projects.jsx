@@ -30,13 +30,12 @@ const Projects = () => {
         <section className="page-section" id="projects">
             <div id="projects-scrollspy"></div>
             <div className="pt-4 mx-4">
-                <h2 className="page-section-heading text-center mb-5">Projects</h2>
-                <p className="text-center">Here are some projects I'm involved in right now.</p>
+                <h2 className="page-section-heading mb-5">Projects</h2>
 
                 <ListGroup className="list-group-flush mt-5">
                     {projects.map(project => {
                         return (
-                            <ListGroupItem key={project.title}>
+                            <ListGroupItem key={project.title} className="pl-0">
                                 <Row>
                                     <Col>
                                         <h5>

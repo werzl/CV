@@ -4,9 +4,9 @@ import ReactMarkdown from "react-markdown";
 import { HeadingRenderer } from "../common/HeadingRenderer";
 import { getSectionContent } from "../common/getSectionContent";
 
-import "./Profile.scss";
+import "./Overview.scss";
 
-const Profile = () => {
+const Overview = () => {
     const [markdownContent, setMarkdownContent] = useState("...");
 
     const profileContentUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/profile/profile.md";
@@ -28,9 +28,9 @@ const Profile = () => {
     return (
         <section className="page-section">
             <div className="mx-4">
-                <h2 className="page-section-heading text-center mb-5">Profile</h2>
+                <h2 className="page-section-heading mb-5">Overview</h2>
 
-                <div className="profileText text-justify">
+                <div className="profileText">
                     <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer }} />
                 </div>
             </div>
@@ -38,4 +38,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default Overview;

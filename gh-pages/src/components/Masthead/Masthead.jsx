@@ -13,15 +13,19 @@ const socialAccounts = [
 
 const Masthead = () => {
     return (
-        <header className="masthead text-center text-white">
-            <div className="container align-items-center">
-                <h1 className="masthead-heading text-uppercase mb-0">Adam Hewitt</h1>
+        <header className="masthead text-white">
+            <div className="container px-3">
+                <h1 className="masthead-heading text-uppercase pb-2">Adam Hewitt</h1>
 
                 <p className="masthead-subheading">
-                    Software Developer / Team Lead at Glasswall Solutions Ltd
+                    <b>Current Role:</b> Cloud Development Team Lead
+                    <br/>
+                    <b>Company:</b> Glasswall Solutions Ltd 
+                    <br/>
+                    <b>Since:</b> February 2022
                 </p>
 
-                <p className="masthead-subheading">
+                <p className="masthead-subheading py-2">
                     .
                     {socialAccounts.map((account) => {
                         return (

@@ -31,25 +31,27 @@ const Education = () => {
         <section className="page-section" id="education">
             <div id="education-scrollspy"></div>
             <div className="pt-4 mx-4">
-                <h2 className="page-section-heading text-center mb-5">Education</h2>
+                <h2 className="page-section-heading mb-5">Education</h2>
 
                 <ListGroup className="list-group-flush mt-5">
                     {schools.map(school => {
                         return (
-                            <ListGroupItem key={school.title}>
-                                <Row>
-                                    <Col md="3"></Col>
+                            <ListGroupItem key={school.title} className="pl-0 pb-3">
+                                <Row className="pb-3">
+                                    <Col md="4">
+                                        <img src={school.img} alt={school.title}/>
+                                    </Col>
+
                                     <Col>
                                         <h5>{school.title}</h5>
                                     </Col>
+
                                     <Col md="2">
                                         <h6>{school.dateFrom}-{school.dateTo}</h6>
                                     </Col>
                                 </Row>
+
                                 <Row>
-                                    <Col md="3" className="text-center">
-                                        <img src={school.img} alt={school.title}/>
-                                    </Col>
                                     <Col>
                                         <p>
                                             {school.details.map(detail => {

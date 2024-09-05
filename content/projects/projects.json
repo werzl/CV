@@ -10,18 +10,18 @@
         "description": "By integrating with Glasswall Halo, Constellations processes large file containers with unparalleled speed and efficiency. Efficiently processing a 1TB data container in less than one hour."
     },
     {
-        "title": "Glasswall Desktop",
-        "link": "https://www.glasswall.com/solutions/apps/desktop-app/",
-        "description": "An Electron app supporting windows and mac OS. 'drag and drop files from the outside world into the Glasswall Embedded Engine'"
+        "title": "Glasswall Meteor",
+        "link": "https://docs.glasswall.com/docs/about-glasswall-meteor",
+        "description": "Glasswall Meteor provides zero-trust file protection in an easy to install desktop application. Leveraging Electron, React and Typescript."
     },
     {
         "title": "jdmcserver",
         "link": "https://github.com/werzl/jdmcserver",
-        "description": "One project I started with a friend recently, jdmcserver, is a Minecraft server hosted in an AWS EC2 instance. As well as a static frontend and API hosted on AWS. The API connects Lambda functions, which toggle the running status of the EC2 instance, and expose the server's details."
+        "description": "An stripped down EC2 virtual machine capable of running a Minecraft server for 2 dollars a month, hosted in AWS."
     },
     {
-        "title": "This Website!",
+        "title": "CV",
         "link": "https://github.com/werzl/CV",
-        "description": "This CV is actually a React/Webpack static site.  I wanted to version-control the web pages for the CV, but also the content. I needed a way to quickly make a change and see it propogate instantly on the frontend. I decided to go with GitHub, in order to make it open. An added bonus is a free proof-read; if a friend or potential employer spots a mistake or wants to suggest an improvement, they can create a pull request on this repository! :)"
+        "description": "This page is actually a React/Webpack static site hosted on GitHub Pages. Feel free to suggest improvements or even open a Pull Request."
     }
 ]

@@ -37,20 +37,14 @@ const Skills = () => {
         <section className="page-section" id="skills">
             <div id="skills-scrollspy" className="h-50"><p></p></div>
             <div className="mx-4">
-                <h2 className="page-section-heading text-center mb-5">Skills</h2>
-
-                <Row>
-                    <Col>
-                        <OperatingSystems />
-                    </Col>
-                </Row>
+                <h2 className="page-section-heading mb-5">Skills</h2>
 
                 <Row>
                     <Col md={6} className="mb-4">
                         <Table>
                             <thead>
                                 <tr>
-                                    <th colSpan={3} className="text-center">
+                                    <th colSpan={3}>
                                         <h3>Tools && Frameworks</h3>
                                     </th>
                                 </tr>
@@ -73,7 +67,7 @@ const Skills = () => {
                         <Table>
                             <thead>
                                 <tr>
-                                    <th colSpan={3} className="text-center">
+                                    <th colSpan={3}>
                                         <h3>Languages</h3>
                                     </th>
                                 </tr>

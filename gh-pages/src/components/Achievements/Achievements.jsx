@@ -30,11 +30,10 @@ const Achievements = () => {
         <section className="page-section" id="achievements">
             <div id="achievements-scrollspy"></div>
             <div className="pt-4 mx-4">
-                <h2 className="page-section-heading text-center mb-5">Achievements && Interests</h2>
+                <h2 className="page-section-heading mb-5">Achievements and Interests</h2>
 
                 <Row>
-                    <Col md="1"></Col>
-                    <Col md="11">
+                    <Col md="12">
                         <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer, link: MarkdownLinkRenderer }} />
                     </Col>
                 </Row>
