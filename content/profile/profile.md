@@ -1,9 +1,5 @@
 Hi! I'm Adam Hewitt. I'm a developer and team lead at a world-leading cyber security software company.
-  
-I love problem solving and when I'm not swearing at my PC because my build pipelines are failing, or furiously debugging code at 2am, I wake up every day loving what I do.
-  
-In my current role I'm mainly working on cloud native applications. I'm having fun innovating and building on existing products by moving them to the cloud, as well as creating new ones. The tech stack for this work is C#/.NET, Docker/Kubernetes, TypeScript, Python and React.
-  
-Developer experience is important to me, I've invested a lot of time in docker compose, webpack, building documentation for our developers, and writing utility scripts with Python and NodeJS. Amongst various Slack and Teams bots, I've contributed to coding standards and NPM Libraries to make development easier for my team.
-    
-I see software development as a hobby that I made a career out of, I try my best to maintain a balance of work and personal projects.
+
+As a Team Lead / Scrum Master, I bring a history of successfully overseeing the end-to-end delivery of Cloud Native software projects, by driving cross-functional teams to meet goals, and ensuring on-time, high-quality solutions. With a strong focus on agile methodologies, stakeholder engagement, and continuous improvement, I align business objectives with technology solutions to optimise processes and deliver measurable value. My leadership approach brings to the forefront collaboration, accountability, and innovation - empowering my team to thrive while maintaining client satisfaction and operational excellence.
+
+As a .NET Cloud Native Developer, I have experience designing, developing, and maintaining robust applications using C# and the Microsoft .NET technology stack. With a strong foundation in object-oriented programming I specialize in building scalable, high-performance solutions. My expertise includes ASP.NET, Web API, and Entity Framework, alongside proficiency in front-end technologies (including Blazor, and React), database management and container orchestration using Kubernetes. I am passionate about clean code practices, continuous learning, and leveraging agile methodologies to deliver efficient, reliable, and maintainable solutions.

@@ -8,15 +8,15 @@
         "confidence": 100
     },
     {
-        "title": "React",
-        "confidence": 85
-    },
-    {
         "title": "Docker",
         "confidence": 85
     },
     {
         "title": "Azure",
+        "confidence": 80
+    },
+    {
+        "title": "React",
         "confidence": 75
     },
     {

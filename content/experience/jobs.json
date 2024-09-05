@@ -1,28 +1,31 @@
 [
     {
-       "key":"glasswall-solutions",
-       "company":"Glasswall Solutions",
-       "title":"Cloud Development Team Lead",
-       "dateFrom":"July 2019",
-       "dateTo":"Present",
-       "details":[
-          "Joined as a .NET Developer, directly contributing to the ‘Glasswall Rebuild for Email’ SaaS solution in an agile development team.",
-          "Contributed as a developer in a high performing scrum team.",
-          "Became the scrum master and team lead, responsible for a scrum team within the wider development team.",
-          "Gained certifications as a scrum master and CKAD (Certified Kubernetes Application Developer)"
-       ]
+        "key": "glasswall-solutions",
+        "company": "Glasswall Solutions",
+        "title": "Cloud Development Team Lead",
+        "dateFrom": "July 2019",
+        "dateTo": "Present",
+        "details": [
+            "Led the team to enhance productivity and streamline agile processes, ensuring timely delivery of high-quality software.",
+            "Achieved the Scrum Master Certification, demonstrating expertise in agile methodologies and team leadership.",
+            "Led the delivery of a new product from incpetion to delivery in 6 months to secure a £1.8million recurring revenue deal for the company.",
+            "Mentored and promoted a junior developer within their first year, guiding their professional growth and contributing to team success.",
+            "Engaged in design-based activities, planning sessions, and the implementation of .NET based products.",
+            "Collaborated with other team members to ensure solutions are scalable, performant, and easy to maintain.",
+            "Adhered to coding standards, conduct code reviews, and promote a culture of clean, high-quality code."
+        ]
     },
     {
-       "key":"paramet",
-       "company":"Paramet",
-       "title":"Junior Developer",
-       "dateFrom":"Aug 2018",
-       "dateTo":"July 2019",
-       "details":[
-          "Created MVC websites using the Microsoft .Net framework.",
-          "Built responsive web pages using the Bootstrap 4 framework.",
-          "Built apps using jQuery and Vue.js.",
-          "Worked on a fluid-dynamic selection engine written in C#."
-       ]
+        "key": "paramet",
+        "company": "Paramet",
+        "title": "Junior Developer",
+        "dateFrom": "Aug 2018",
+        "dateTo": "July 2019",
+        "details": [
+            "Created MVC websites using the Microsoft .Net framework.",
+            "Built responsive web pages using the Bootstrap 4 framework.",
+            "Built apps using jQuery and Vue.js.",
+            "Worked on a fluid-dynamic selection engine written in C#."
+        ]
     }
- ]
+]
