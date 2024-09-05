@@ -4,7 +4,7 @@ import CvNavbar from "./CvNavbar/CvNavbar";
 
 import Masthead from "./Masthead/Masthead";
 
-import Profile from "./Profile/Profile";
+import Overview from "./Overview/Overview";
 
 import Skills from "./Skills/Skills";
 
@@ -28,13 +28,13 @@ const App = () => {
             <Masthead />
 
             <div className="container">
-                <Profile />
+                <Overview />
+
+                <Experience />
 
                 <Skills />
 
                 <Projects />
-
-                <Experience />
 
                 <Certifications />
 
