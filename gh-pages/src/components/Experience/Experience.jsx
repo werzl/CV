@@ -29,7 +29,7 @@ const Experience = () => {
         <section className="page-section" id="experience">
             <div id="experience-scrollspy"></div>
             <div className="pt-4 mx-4">
-                <h2 className="page-section-heading text-center mb-5">Experience</h2>
+                <h2 className="page-section-heading mb-5">Experience</h2>
 
                 <ul className="timeline">
                     {jobs.map(job => {

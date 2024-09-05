@@ -29,15 +29,14 @@ const Certifications = () => {
         <section className="page-section" id="certifications">
             <div id="certifications-scrollspy"></div>
             <div className="pt-4 mx-4">
-                <h2 className="page-section-heading text-center mb-5">Certifications</h2>
+                <h2 className="page-section-heading mb-5">Certifications</h2>
 
                 <Row>
-                    <Col md="1"></Col>
-                    <Col md="11">
+                    <Col md="12">
                         <Row>
                             {certifications.map(cert => {
                                 return (
-                                    <Col className="text-center mt-5 pt-3" md="6" xs="12">
+                                    <Col md="6" xs="12" className="pb-5">
                                         <h4 className="certifications-title">{cert.title}</h4>
                                         <p className="certifications-descriptions">{cert.description}</p>
                                         <img src={cert.img} alt={cert.title} className="certifications-image" />

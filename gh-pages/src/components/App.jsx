@@ -32,15 +32,15 @@ const App = () => {
 
                 <Experience />
 
-                <Skills />
-
                 <Projects />
 
                 <Certifications />
 
-                <Education />
-
                 <Achievements />
+
+                <Skills />
+
+                <Education />
             </div>
         </>
     );

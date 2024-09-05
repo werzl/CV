@@ -28,9 +28,9 @@ const Overview = () => {
     return (
         <section className="page-section">
             <div className="mx-4">
-                <h2 className="page-section-heading text-center mb-5">Overview</h2>
+                <h2 className="page-section-heading mb-5">Overview</h2>
 
-                <div className="profileText text-justify">
+                <div className="profileText">
                     <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer }} />
                 </div>
             </div>
