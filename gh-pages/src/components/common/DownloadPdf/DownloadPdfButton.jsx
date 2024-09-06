@@ -34,7 +34,8 @@ const DownloadPdfButton = () => {
             heightLeft -= pageHeight;
         }
 
-        pdf.save(filename);
+        var blob = pdf.output("blob");
+        window.open(URL.createObjectURL(blob));
 
         setLoading(false);
     };
