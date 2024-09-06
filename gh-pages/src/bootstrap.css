@@ -11013,7 +11013,7 @@ a.text-dark:focus {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  background-color: #939393 !important;
+  background-color: #1c2a43 !important;
   border-bottom: 3px solid white;
 }
 
@@ -11039,7 +11039,7 @@ a.text-dark:focus {
 }
 
 #mainNav .navbar-nav .nav-item a.nav-link.scrolled {
-  color: #073229;
+  color: #17a589;
 }
 
 #mainNav .navbar-toggler {
@@ -11085,7 +11085,7 @@ a.text-dark:focus {
 .masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
-  background-color: #919191 !important;
+  background-color: #1c2a43 !important;
 }
 
 .masthead .masthead-heading {

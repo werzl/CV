@@ -32,7 +32,7 @@ const Achievements = () => {
             <div className="pt-4 mx-4">
                 <h2 className="page-section-heading mb-5">Achievements and Interests</h2>
 
-                <Row>
+                <Row className="mb-5">
                     <Col md="12">
                         <ReactMarkdown source={markdownContent} renderers={{ heading: HeadingRenderer, link: MarkdownLinkRenderer }} />
                     </Col>

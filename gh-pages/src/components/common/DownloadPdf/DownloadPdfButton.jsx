@@ -41,7 +41,7 @@ const DownloadPdfButton = () => {
 
     return (
         <div>
-            <button id="download_pdf" class="pl-5" onClick={() => handleDownload()}>
+            <button id="download_pdf" onClick={() => handleDownload()}>
                 <p>
                     {!loading &&
                         <>Download PDF</>
