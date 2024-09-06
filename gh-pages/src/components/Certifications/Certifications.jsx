@@ -36,7 +36,7 @@ const Certifications = () => {
                         <Row>
                             {certifications.map(cert => {
                                 return (
-                                    <Col md="6" xs="12" className="pb-5">
+                                    <Col md="6" xs="12" className="pb-5" key={cert.title}>
                                         <h4 className="certifications-title">{cert.title}</h4>
                                         <p className="certifications-descriptions">{cert.description}</p>
                                         <img src={cert.img} alt={cert.title} className="certifications-image" />
