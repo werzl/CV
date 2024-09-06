@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import DownloadPdfButton from "../common/DownloadPdf/DownloadPdfButton";
@@ -13,6 +13,14 @@ const socialAccounts = [
 ];
 
 const Masthead = () => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        if (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase())) {
+            setIsMobile(true);
+        }
+    }, []);
+
     return (
         <header className="masthead text-white">
             <div className="container px-3">
@@ -51,7 +59,7 @@ const Masthead = () => {
                             })}
                         </p>
 
-                        <DownloadPdfButton />
+                        { !isMobile && <DownloadPdfButton /> }
                     </Col>
 
                     <Col>
