@@ -24,14 +24,14 @@ const Masthead = () => {
     return (
         <header className="masthead text-white">
             <div className="container px-3">
-                <Row>
+                <Row className="w-100">
                     <Col md="8">
                         <h1 className="masthead-heading text-uppercase pb-2">
                             Adam Hewitt
                         </h1>
 
                         <p className="masthead-subheading">
-                            <b>Current Role:</b> Cloud Development Team Lead
+                            <b>Role:</b> Cloud Development Team Lead
                             <br />
                             <b>Company:</b> Glasswall Solutions Ltd
                             <br />
