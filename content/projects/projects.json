@@ -17,7 +17,7 @@
     {
         "title": "jdmcserver",
         "link": "https://github.com/werzl/jdmcserver",
-        "description": "An stripped down EC2 virtual machine capable of running a Minecraft server for 2 dollars a month, hosted in AWS."
+        "description": "A stripped down EC2 virtual machine capable of running a Minecraft server for 2 dollars a month, hosted in AWS."
     },
     {
         "title": "CV",
