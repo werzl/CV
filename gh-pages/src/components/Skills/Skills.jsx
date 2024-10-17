@@ -2,8 +2,6 @@ import React, { useState, useCallback, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
-import ProgressBar from "react-bootstrap/ProgressBar";
-import OperatingSystems from "./OperatingSystems";
 
 import { getSectionContent } from "../common/getSectionContent";
 
@@ -55,7 +53,6 @@ const Skills = () => {
                                     return (
                                         <tr key={tool.title}>
                                             <th className="pl-4 w-25">{tool.title}</th>
-                                            <td><ProgressBar variant="info" animated now={tool.confidence} /></td>
                                         </tr>
                                     );
                                 })}
@@ -78,7 +75,6 @@ const Skills = () => {
                                     return (
                                         <tr key={language.title}>
                                             <th className="pl-4 w-25">{language.title}</th>
-                                            <td><ProgressBar animated now={language.confidence} /></td>
                                         </tr>
                                     );
                                 })}
