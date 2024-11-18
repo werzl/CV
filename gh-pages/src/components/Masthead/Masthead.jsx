@@ -63,7 +63,7 @@ const Masthead = () => {
                     </Col>
 
                     <Col>
-                        <img className="rounded-circle profile-pic mt-4 d-none d-md-block" src="https://media.licdn.com/dms/image/v2/C4D03AQEuoshhDuBxzA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1583505799277?e=1730937600&v=beta&t=GRHQCyuP3MmBXHMkdJE_B9ogflwv0cSvWRBpd2O9uJY" alt="profile picture"/>
+                        <img className="rounded-circle profile-pic mt-4 d-none d-md-block" src="https://avatars.githubusercontent.com/u/16911902?v=4" alt="profile picture"/>
                     </Col>
                 </Row>
             </div>
