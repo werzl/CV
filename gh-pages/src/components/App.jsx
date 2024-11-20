@@ -30,11 +30,11 @@ const App = () => {
             <div className="container">
                 <Overview />
 
-                <Experience />
+                <Skills />
 
                 <Projects />
                 
-                <Skills />
+                <Experience />
 
                 <Certifications />
 

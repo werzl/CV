@@ -14,8 +14,8 @@ const CvNavbar = () => {
                 <Navbar.Collapse id="navbarResponsive">
                     <Nav className="ml-auto">
                         <Nav.Item>
-                            <Scrollspy items={["experience-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
-                                <Nav.Link href="#experience">Experience</Nav.Link>
+                            <Scrollspy items={["skills-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
+                                <Nav.Link href="#skills">Skills</Nav.Link>
                             </Scrollspy>
                         </Nav.Item>
                         <Nav.Item>
@@ -24,8 +24,8 @@ const CvNavbar = () => {
                             </Scrollspy>
                         </Nav.Item>
                         <Nav.Item>
-                            <Scrollspy items={["skills-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
-                                <Nav.Link href="#skills">Skills</Nav.Link>
+                            <Scrollspy items={["experience-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
+                                <Nav.Link href="#experience">Experience</Nav.Link>
                             </Scrollspy>
                         </Nav.Item>
                         <Nav.Item>
