@@ -1,26 +1,29 @@
 [
     {
-        "title": ".NET",
-        "confidence": 100
+        "title": ".NET"
     },
     {
-        "title": "Kubernetes",
-        "confidence": 100
+        "title": "React"
     },
     {
-        "title": "Docker",
-        "confidence": 85
+        "title:": "MongoDB + CosmosDB"
     },
     {
-        "title": "Azure",
-        "confidence": 80
+        "title:": "RabbitMQ + ServiceBus"
     },
     {
-        "title": "React",
-        "confidence": 75
+        "title": "Kubernetes"
     },
     {
-        "title": "AWS",
-        "confidence": 70
+        "title": "Docker"
+    },
+    {
+        "title": "Azure"
+    },
+    {
+        "title": "AWS + GCP + Oracle"
+    },
+    {
+        "title": "Azure DevOps + Jira"
     }
 ]
