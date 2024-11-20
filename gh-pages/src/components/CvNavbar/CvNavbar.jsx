@@ -24,6 +24,11 @@ const CvNavbar = () => {
                             </Scrollspy>
                         </Nav.Item>
                         <Nav.Item>
+                            <Scrollspy items={["skills-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
+                                <Nav.Link href="#skills">Skills</Nav.Link>
+                            </Scrollspy>
+                        </Nav.Item>
+                        <Nav.Item>
                             <Scrollspy items={["certifications-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
                                 <Nav.Link href="#certifications">Certifications</Nav.Link>
                             </Scrollspy>
@@ -31,11 +36,6 @@ const CvNavbar = () => {
                         <Nav.Item>
                             <Scrollspy items={["achievements-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
                                 <Nav.Link href="#achievements">Achievements</Nav.Link>
-                            </Scrollspy>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Scrollspy items={["skills-scrollspy"]} currentClassName="scrolled" className="p-0 m-0" offset={100}>
-                                <Nav.Link href="#skills">Skills</Nav.Link>
                             </Scrollspy>
                         </Nav.Item>
                         <Nav.Item>

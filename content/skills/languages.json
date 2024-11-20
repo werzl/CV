@@ -1,26 +1,20 @@
 [
     {
-        "title": "C#",
-        "confidence": 100
+        "title": "C#"
     },
     {
-        "title": "SQL",
-        "confidence": 100
+        "title": "SQL"
     },
     {
-        "title": "Python",
-        "confidence": 90
+        "title": "Python"
     },
     {
-        "title": "JavaScript",
-        "confidence": 90
+        "title": "JavaScript"
     },
     {
-        "title": "Typescript",
-        "confidence": 85
+        "title": "Typescript"
     },
     {
-        "title": "CSS",
-        "confidence": 75
+        "title": "HTML + CSS"
     }
 ]
