@@ -11030,7 +11030,7 @@ a.text-dark:focus {
 }
 
 #mainNav .navbar-nav .nav-item a.nav-link:hover {
-  color: #073229;
+  color: #09ffcc;
 }
 
 #mainNav .navbar-nav .nav-item a.nav-link:active,
@@ -11039,7 +11039,7 @@ a.text-dark:focus {
 }
 
 #mainNav .navbar-nav .nav-item a.nav-link.scrolled {
-  color: #17a589;
+  color: #09ffcc;
 }
 
 #mainNav .navbar-toggler {
