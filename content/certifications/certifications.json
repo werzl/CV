@@ -10,5 +10,11 @@
         "title": "CSM",
         "description": "Certified Scrum Master",
         "link": "https://bcert.me/sdnoyzdit"
+    },
+    {
+        "img": "https://raw.githubusercontent.com/werzl/CV/master/content/certifications/cspo-badge.png",
+        "title": "CSPO",
+        "description": "Certified Scrum Product Owner",
+        "link": "https://bcert.me/sxcwqphhe"
     }
 ]
