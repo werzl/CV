@@ -1,6 +1,6 @@
 [
     {
-        "title": ".NET"
+        "title": ".NET, ASP.NET Core"
     },
     {
         "title": "React"
@@ -18,10 +18,7 @@
         "title": "Docker"
     },
     {
-        "title": "Azure"
-    },
-    {
-        "title": "AWS + GCP + Oracle"
+        "title": "Azure + AWS + GCP + Oracle"
     },
     {
         "title": "Azure DevOps + Jira"
