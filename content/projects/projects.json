@@ -5,9 +5,14 @@
         "description": "Glasswall Halo is built upon powerful cloud-native architecture using scalable Kubernetes. CDR technology removes potential threats from unknown files in less than a second, without compromising the files contents."
     },
     {
-        "title": "Glasswall Constellations",
-        "link": "https://docs.glasswall.com/docs/about-glasswall-constellations",
-        "description": "By integrating with Glasswall Halo, Constellations processes large file containers with unparalleled speed and efficiency. Efficiently processing a 1TB data container in less than one hour."
+        "title": "Glasswall Halo - ICAP Server",
+        "link": "https://docs.glasswall.com/docs/about-glasswall-icap",
+        "description": "ICAP (Internet Content Adaptation Protocol) is designed to delegate tasks like virus scanning and content filtering to dedicated servers."
+    },
+     {
+        "title": "Glasswall REST APIs",
+        "link": "https://docs.glasswall.com/docs/about-glasswall-apis",
+        "description": "Glasswall APIs to deliver zero-trust CDR file processing at scale."
     },
     {
         "title": "Glasswall Meteor",
