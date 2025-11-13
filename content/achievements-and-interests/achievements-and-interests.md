@@ -1,10 +1,10 @@
 Feel free to ask me for my Strava profile:  
-- 2023 Maldon Triathlon standard distance
-- 2024 Chelmsford Half Marathon
-- 2024 Lake Dorney Standard Triathlon
-- 2024 24 hour swim at Trifarm for the [Level Water charity](https://www.levelwater.org/24hr-trifarm)
+- 2025 Ironman 70.3 Bolton
+- 2025 Colchester Half Marathon
 - 2024 RIDE Essex charity bike ride for Action Medical Research
-
+- 2024 24 hour swim at Trifarm for the [Level Water charity](https://www.levelwater.org/24hr-trifarm)
+- 2024 Chelmsford Half Marathon
+- 2023 Maldon Triathlon standard distance (First Triathlon)
 
 
 - Contributed to early iterations of the [Open Security Summit](https://open-security-summit.org/)
