@@ -9,7 +9,7 @@
         "link": "https://docs.glasswall.com/docs/about-glasswall-icap",
         "description": "ICAP (Internet Content Adaptation Protocol) is designed to delegate tasks like virus scanning and content filtering to dedicated servers."
     },
-     {
+    {
         "title": "Glasswall REST APIs",
         "link": "https://docs.glasswall.com/docs/about-glasswall-apis",
         "description": "Glasswall APIs to deliver zero-trust CDR file processing at scale."
@@ -18,6 +18,11 @@
         "title": "Glasswall Meteor",
         "link": "https://docs.glasswall.com/docs/about-glasswall-meteor",
         "description": "Glasswall Meteor provides zero-trust file protection in an easy to install desktop application. Leveraging Electron, React and Typescript."
+    },
+    {
+        "title": "HandyList",
+        "link": "https://github.com/werzl/ocr-shopping-list",
+        "description": "Turns paper with handwritten notes into digital shopping lists with OCR."
     },
     {
         "title": "jdmcserver",
