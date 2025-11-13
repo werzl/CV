@@ -22,7 +22,7 @@
     {
         "title": "HandyList",
         "link": "https://github.com/werzl/ocr-shopping-list",
-        "description": "Turns paper with handwritten notes into digital shopping lists with OCR."
+        "description": "Turns handwritten paper notes into digital shopping lists with GPT."
     },
     {
         "title": "jdmcserver",
