@@ -1,4 +1,4 @@
-Full stack developer for 7 years overall, including 2 years leading teams.
+Full stack developer for 7 years, including 2 years leading teams.
 
 As a Dev Manager / Scrum Master, I bring a history of overseeing the delivery of Cloud Native software. With a strong focus on Agile methodologies (Scrum) and continuous improvement, I have real experience delivering features from conception/discovery through to release, with regular public release cycles. My leadership approach promotes collaboration, openness, and innovation - enabling my team to hit their goals, while having fun along the way.
 
