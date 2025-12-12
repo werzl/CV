@@ -10,8 +10,6 @@ See it live: [https://werzl.github.io/CV/](https://werzl.github.io/CV/).
 ## How it Works
 When I set out trying to make this, I wanted to version-control the web pages for the CV, but also the content. I needed a way to quickly make a change and see it propogate instantly on the frontend. I decided to go with GitHub, in order to make it open. An added bonus is a free proof-read; if a friend or potential employer spots a mistake or wants to suggest an improvement, they can create a pull request on this repository! :)
 
-![sequence for viewing the site](https://raw.githubusercontent.com/werzl/CV/master/viewing-cv-sequence.png)
-
 ### Content
 The content for the CV / Resumé comes from JSON and Markdown files. Each section (Profile, through to Achievements) has their own folder in the ./content directory in this repository. 
 
