@@ -28,7 +28,7 @@ const Experience = () => {
     return (
         <section className="page-section" id="experience">
             <div id="experience-scrollspy"></div>
-            <div className="pt-4 mx-4">
+            <div className="pt-4 mx-2">
                 <h2 className="page-section-heading mb-5">Experience</h2>
 
                 <ul className="timeline">
@@ -48,7 +48,7 @@ const Experience = () => {
                                     <Col md="10">
                                         <h6>{job.title}</h6>
 
-                                        <ul>
+                                        <ul className="experience-details">
                                             {job.details.map(detail => {
                                                 return (
                                                     <li key={detail}>{detail}</li>
