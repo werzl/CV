@@ -9,7 +9,7 @@ import { getSectionContent } from "../common/getSectionContent";
 const Projects = () => {
     const [projects, setProjects] = useState([]);
 
-    const projectsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/projects/projects.json";
+    const projectsUrl = "content/projects/projects.json";
 
     const fetchProjects = useCallback(async (url) => {
         try {

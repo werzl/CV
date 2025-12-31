@@ -11,7 +11,7 @@ import "./education.scss";
 const Education = () => {
     const [schools, setSchools] = useState([]);
 
-    const schoolsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/education/schools.json";
+    const schoolsUrl = "content/education/schools.json";
 
     const fetchSchools = useCallback(async (url) => {
         try {

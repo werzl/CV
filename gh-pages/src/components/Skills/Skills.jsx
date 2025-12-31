@@ -8,27 +8,27 @@ import { getSectionContent } from "../common/getSectionContent";
 import "./skills.scss";
 
 const Skills = () => {
-    const [languages, setLanguages] = useState([]);
-    const [tools, setTools] = useState([]);
+    const [techStack, setTechStack] = useState([]);
+    const [skills, setSkills] = useState([]);
 
-    const languagesUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/skills/languages.json";
-    const toolsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/skills/tools.json";
+    const techStackUrl = "content/skills/techStack.json";
+    const skillsUrl = "content/skills/skills.json";
 
-    const fetchSkillsContent = useCallback(async (languagesUrl, toolsUrl) => {
+    const fetchSkillsContent = useCallback(async (techStackUrl, skillsUrl) => {
         try {
-            const languages = await getSectionContent(languagesUrl);
-            setLanguages(languages);
+            const techStackContent = await getSectionContent(techStackUrl);
+            setTechStack(techStackContent);
 
-            const tools = await getSectionContent(toolsUrl);
-            setTools(tools);
+            const skillsContent = await getSectionContent(skillsUrl);
+            setSkills(skillsContent);
         }
         catch (e) {
             console.error(e);
         }
-    }, [setLanguages, setTools]);   
+    }, [setTechStack, setSkills]);   
 
     useEffect(() => {
-        fetchSkillsContent(languagesUrl, toolsUrl);
+        fetchSkillsContent(techStackUrl, skillsUrl);
     }, []);
 
     return (
@@ -38,43 +38,44 @@ const Skills = () => {
                 <h2 className="page-section-heading mb-5">Skills</h2>
 
                 <Row>
+
                     <Col md={6} className="mb-4">
                         <Table>
                             <thead>
                                 <tr>
                                     <th colSpan={3}>
-                                        <h3>Tools && Frameworks</h3>
+                                        <h3>Tech Stack</h3>
                                     </th>
                                 </tr>
                             </thead>
 
                             <tbody>
-                                {tools.map(tool => {
+                                {techStack.map(tech => {
                                     return (
-                                        <tr key={tool.title}>
-                                            <th className="pl-4 w-25">{tool.title}</th>
+                                        <tr key={tech.title}>
+                                            <th className="pl-4 w-25">{tech.title}</th>
                                         </tr>
                                     );
                                 })}
                             </tbody>
                         </Table>
                     </Col>
-
+                    
                     <Col md={6} className="mb-4">
                         <Table>
                             <thead>
                                 <tr>
                                     <th colSpan={3}>
-                                        <h3>Languages</h3>
+                                        <h3>Skills</h3>
                                     </th>
                                 </tr>
                             </thead>
 
                             <tbody>
-                                {languages.map(language => {
+                                {skills.map(skill => {
                                     return (
-                                        <tr key={language.title}>
-                                            <th className="pl-4 w-25">{language.title}</th>
+                                        <tr key={skill.title}>
+                                            <th className="pl-4 w-25">{skill.title}</th>
                                         </tr>
                                     );
                                 })}

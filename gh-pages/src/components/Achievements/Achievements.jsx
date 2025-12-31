@@ -10,7 +10,7 @@ import { getSectionContent } from "../common/getSectionContent";
 const Achievements = () => {
     const [markdownContent, setMarkdownContent] = useState("...");
 
-    const achievementsContentUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/achievements-and-interests/achievements-and-interests.md";
+    const achievementsContentUrl = "content/achievements-and-interests/achievements-and-interests.md";
 
     const fetchAchievementsContent = useCallback(async (url) => {
         try {

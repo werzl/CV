@@ -9,7 +9,7 @@ import "./experience.scss";
 const Experience = () => {
     const [jobs, setJobs] = useState([]);
 
-    const jobsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/experience/jobs.json";
+    const jobsUrl = "content/experience/jobs.json";
 
     const fetchJobs = useCallback(async (url) => {
         try {

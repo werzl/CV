@@ -63,7 +63,7 @@ const Masthead = () => {
                     </Col>
 
                     <Col>
-                        <img className="rounded-circle profile-pic mt-4 d-none d-md-block" src="https://avatars.githubusercontent.com/u/16911902?v=4" alt="profile picture"/>
+                        <img className="rounded-circle profile-pic mt-4 d-none d-md-block" src="images/profilePic.jfif" alt="profile picture"/>
                     </Col>
                 </Row>
             </div>
