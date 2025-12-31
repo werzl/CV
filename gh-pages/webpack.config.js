@@ -89,8 +89,7 @@ module.exports = env => {
             }),
             new CopyWebpackPlugin({
                 patterns: [
-                    { from: "**/*.md", context: "content", to: "content/[path][name][ext]", noErrorOnMissing: true },
-                    { from: "**/*.json", context: "content", to: "content/[path][name][ext]", noErrorOnMissing: true },
+                    { from: path.resolve(__dirname, "content"), to: "./content", noErrorOnMissing: true },
                     { from: path.resolve(__dirname, "public"), to: ".", globOptions: { ignore: ["**/index.html"] }, noErrorOnMissing: true }
                 ]
             })
