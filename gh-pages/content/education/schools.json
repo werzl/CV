@@ -1,6 +1,6 @@
 [
     {
-       "img":"https://raw.githubusercontent.com/werzl/CV/master/content/education/essex-university-logo.gif",
+       "img":"content/education/essex-university-logo.gif",
        "title":"University of Essex",
        "dateFrom":"2015",
        "dateTo":"2018",
@@ -20,7 +20,7 @@
        ]
     },
     {
-       "img":"https://raw.githubusercontent.com/werzl/CV/master/content/education/havering-college-logo.png",
+       "img":"content/education/havering-college-logo.png",
        "title":"Havering College",
        "dateFrom":"2012",
        "dateTo":"2014",
@@ -32,7 +32,7 @@
        ]
     },
     {
-       "img":"https://raw.githubusercontent.com/werzl/CV/master/content/education/redden-court-logo.png",
+       "img":"content/education/redden-court-logo.png",
        "title":"Redden Court School",
        "dateFrom":"2007",
        "dateTo":"2012",
