@@ -15,7 +15,7 @@ The content for the CV / Resumé comes from JSON and Markdown files. Each sectio
 
 The frontend is hosted on GitHub Pages, (thank you Microsoft!).
 
-The React code makes a GET request to the content files in GitHub on page load, it then displays them in styled components.
+The React code makes a GET request to the content files on page load, it then displays them in styled components.
 
 Thats it! If I want to make a change to the content, I update a JSON or MD file and it appears on the live site within seconds.
 
