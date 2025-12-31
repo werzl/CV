@@ -9,7 +9,7 @@ import "./Overview.scss";
 const Overview = () => {
     const [markdownContent, setMarkdownContent] = useState("...");
 
-    const profileContentUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/profile/profile.md";
+    const profileContentUrl = "content/profile/profile.md";
 
     const fetchProfileContent = useCallback(async (url) => {
         try {

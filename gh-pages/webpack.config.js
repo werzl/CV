@@ -1,6 +1,7 @@
 const path = require("path");
 const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = env => {
     return {
@@ -59,29 +60,25 @@ module.exports = env => {
                         "sass-loader"
                     ],
                     exclude: /\.module\.(css|scss)$/
-                },
-                {
-                    test: /\.(gif|jpg|png|svg)(\?v=\d+\.\d+\.\d+)?$/,
-                    use: [
-                        {
-                            loader: "file-loader",
-                            options: {
-                                name: "[name].[ext]",
-                                outputPath: "img/",
-                                publicPath: env.NODE_ENV === "local" ? "/img" : "/CV/img",
-                            }
-                        }
-                    ]
                 }
             ]
         },
         devServer: {
-            static: path.resolve(__dirname, "dist"),
+            static: [
+                // explicitly serve the dist folder
+                { directory: path.resolve(__dirname, "dist"), publicPath: "/" },
+                // also serve public if you have other static assets there
+                { directory: path.resolve(__dirname, "public"), publicPath: "/" }
+            ],
             port: 3000,
             open: true,
             historyApiFallback: {
                 index: "/"
             },
+            devMiddleware: {
+                writeToDisk: true,
+                publicPath: "/"
+            }
         },
         plugins: [
             new NodePolyfillPlugin(),
@@ -89,6 +86,13 @@ module.exports = env => {
                 template: "public/index.html",
                 favicon: "./public/favicon.ico",
                 inject: false
+            }),
+            new CopyWebpackPlugin({
+                patterns: [
+                    { from: "**/*.md", context: "content", to: "content/[path][name][ext]", noErrorOnMissing: true },
+                    { from: "**/*.json", context: "content", to: "content/[path][name][ext]", noErrorOnMissing: true },
+                    { from: path.resolve(__dirname, "public"), to: ".", globOptions: { ignore: ["**/index.html"] }, noErrorOnMissing: true }
+                ]
             })
         ],
         devtool: "inline-source-map"

@@ -9,7 +9,7 @@ import "./certifications.scss";
 const Certifications = () => {
     const [certifications, setCertifications] = useState([]);
 
-    const certsUrl = "https://raw.githubusercontent.com/werzl/CV/master/content/certifications/certifications.json";
+    const certsUrl = "content/certifications/certifications.json";
 
     const fetchCertifications = useCallback(async (url) => {
         try {
@@ -36,7 +36,7 @@ const Certifications = () => {
                         <Row>
                             {certifications.map(cert => {
                                 return (
-                                    <Col md="6" xs="12" className="pb-5" key={cert.title}>
+                                    <Col lg="3" md="6" xs="12" className="pb-5" key={cert.title}>
                                         <h4 className="certifications-title">{cert.title}</h4>
                                         <p className="certifications-descriptions">{cert.description}</p>
                                         <img src={cert.img} alt={cert.title} className="certifications-image" />
