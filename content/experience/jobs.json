@@ -1,0 +1,54 @@
+[
+    {
+        "key": "second-glasswall",
+        "company": "Glasswall",
+        "title": "Dev and Delivery Manager",
+        "dateFrom": "Feb 2022",
+        "dateTo": "Present",
+        "details": [
+            "After rejoining Glasswall, we began designing a new scalable cloud native solution (Halo). Halo is a message-driven architecture in which microservices written in C# communicate via RabbitMQ.",
+            "I worked with the tech lead to design the architecture, carry out research, and write POCs and decision records. Some technical pieces include: driving Enterprise Readiness of Halo, performance testing for massive scale, adoption of Blazor.",
+            "I moved into a senior, staff engineer-type-role. I'm currently in charge of 2 sprint teams and the delivery of 4 separate products. I also work with the CTO on technical strategy and medium/long term planning.",
+            "I've learned a lot about leading Agile teams by studying and improving SDLCs. I have a reputation for running post mortems and promoting continuous improvement.",
+            "As a Dev Manager, I mentor a team of 7 developers, overseeing their professional and personal development. I've evidenced SMART objectives and successfully put forward business cases for promotion over the years.",
+            "In 2025 I led my team in a 6 month team coaching programme in which our engineers stepped out of their comfort zones, we dealt with introversion vs extraversion, communication techniques, and conflict resolution. I'm currently finding ways to apply the tools from this coaching at Glasswall using psychometrics, verbal communication frameworks, and social contracts between teams.",
+            "As an Agile Delivery Manager, my day-to-day includes working with the Product Owner and QA lead in a '3 amigos' approach to product backlog planning. I've learned a lot about what makes a good Product Owner - it takes a business mindset, and a vision which inspires engineering."
+        ]
+    },
+    {
+        "key": "longview",
+        "company": "Longview Partners LLP",
+        "title": "Application Developer",
+        "dateFrom": "Nov 2021",
+        "dateTo": "Jan 2022",
+        "details": [
+            "I had a short tenure at this asset management company working as a developer in the technology team. The pacing of the work wasn't for me but I did join during the company's cloud transformation, so I got to see first hand how to migrate digital assets and data to the cloud.",
+            "I worked with external contractors on a handover of an Azure Data Lake, and got involved with developing a medallion architecture. I mostly helped out by writing python to validate and transform data from SQL into the data warehouse for use by the research team.",
+            "The technology team was also tasked with rewriting legacy apps, a lot of which became serverless and cloud-first - so I got some hands-on experience writing Azure Function Apps."
+        ]
+    },
+    {
+        "key": "first-glasswall",
+        "company": "Glasswall",
+        "title": "Software Developer",
+        "dateFrom": "July 2019",
+        "dateTo": "Nov 2021",
+        "details": [
+            "My first role at Glasswall introduced me to Agile, starting with Kanban and moving into Scrum. This is where my career started to accelerate and I transitioned from Junior to mid-level.",
+            "I was brought into the team to work on Glasswall's Cloud offering - a multi-tenanted SaaS platform which 'rebuilt' attachments in emails, making Microsoft Office, image and PDF files safe to open using CDR (Content Disarm and Reconstruction) techniques.",
+            "Working on the SaaS offering is where I first learned containerisation, Kubernetes, Microservice architecture, Message-driven architecture (Service Bus / AMQP). Early on, I also got involved in SRE and DevOps - Only one call-out on PagerDuty in my career thankfully!"
+        ]
+    },
+    {
+        "key": "paramet",
+        "company": "Paramet",
+        "title": "Junior Software Developer",
+        "dateFrom": "Aug 2018",
+        "dateTo": "July 2019",
+        "details": [
+            "At Paramet, I made my start as a junior developer, working mainly in C# and MVC. It was here that I first started to enjoy frontend development and got exposed to one of the big JavaScript frameworks - Vue JS. Entity Framework in the data layer meant we could make it easy for customers to build and migrate SQL databases, so I learned a lot about being a DB Admin.",
+            "Paramet got its business from the fan engineering sector, making parts selection engines for big fan and pump manufacturers. These selection engines were a novel way for engineers to select fans and propellers given a required air volume and pressure. I learned a bit about fluid dynamics while we adapted the engine to work as a hydro Pump selection engine.",
+            "As a team of 5 or 6, everyone got involved with everything - participating in customer calls is where I first gained experience gathering requirements, and creating delivery plans."
+        ]
+    }
+]

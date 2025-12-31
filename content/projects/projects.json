@@ -1,0 +1,22 @@
+[
+    {
+        "title": "HandyList",
+        "link": "https://github.com/werzl/ocr-shopping-list",
+        "description": "Turns handwritten paper notes into digital shopping lists with GPT."
+    },
+    {
+        "title": "jdmcserver",
+        "link": "https://github.com/werzl/jdmcserver",
+        "description": "A stripped down EC2 virtual machine capable of running a Minecraft server for 2 dollars a month, hosted in AWS."
+    },
+    {
+        "title": "PR Chrome Extension",
+        "link": "https://github.com/werzl/notifier-chrome-extension",
+        "description": "Fun investigation into how chrome extensions run in the browser, this particular one uses a JavaScript worker service to poll for GitHub pipeline state changes and send a chrome desktop notification with a status icon and details of the pipeline."
+    },
+    {
+        "title": "CV",
+        "link": "https://github.com/werzl/CV",
+        "description": "This page is actually a React/Webpack static site hosted on GitHub Pages. Feel free to suggest improvements or even open a Pull Request."
+    }
+]

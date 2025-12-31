@@ -1,0 +1,41 @@
+[
+    {
+        "title": "C#"
+    },
+    {
+        "title": "ASP.NET Core"
+    },
+    {
+        "title": "XUnit"
+    },
+    {
+        "title": "SQL"
+    },
+    {
+        "title": "Document Database"
+    },
+    {
+        "title": "Python"
+    },
+    {
+        "title": "Blazor"
+    },
+    {
+        "title": "JavaScript + TypeScript"
+    },
+    {
+        "title": "React"
+    },
+    {
+        "title": "Playwright"
+    },
+    {
+        "title": "Kubernetes"
+    },
+    {
+        "title": "Docker"
+    },
+    {
+        "title": "Azure + ADO"
+    }
+]
