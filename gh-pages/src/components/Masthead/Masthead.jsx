@@ -31,7 +31,7 @@ const Masthead = () => {
                         </h1>
 
                         <p className="masthead-subheading">
-                            <b>Role:</b> Dev and Delivery Manager
+                            <b>Role:</b> Senior Software Engineer and Team Lead
                             <br />
                             <b>Company:</b> Glasswall
                             <br />
