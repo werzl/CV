@@ -6,4 +6,4 @@ As a Team Lead, I bring a history of overseeing the delivery of Cloud Native sof
 
 As an individual contributor, I gained experience diving into technical problems in which I produced high quality research and decision records, and crafted solutions that were maintainable and easy to work with.
 
-As Adam, I enjoy reading books, podcasts, PC gaming, cars, F1, and triathlon (Ironman 70.3 Bolon 2026). I also love to cook.
+As Adam, I enjoy reading books, podcasts, PC gaming, cars, F1, and triathlon (Ironman 70.3 Bolton 2026). I also love to cook.
