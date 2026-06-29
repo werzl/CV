@@ -2,15 +2,14 @@
     {
         "key": "second-glasswall",
         "company": "Glasswall",
-        "title": "Dev and Delivery Manager",
+        "title": "Senior Software Engineer and Team Lead",
         "dateFrom": "Feb 2022",
         "dateTo": "Present",
         "details": [
-            "After rejoining Glasswall, we began designing a new scalable cloud native solution (Halo). Halo is a message-driven architecture in which microservices written in C# communicate via RabbitMQ.",
+            "After rejoining Glasswall, we began designing a new scalable cloud native solution (Halo). Halo is a CDR API with a message-driven architecture in which microservices written in C# communicate via RabbitMQ.",
             "I worked with the tech lead to design the architecture, carry out research, and write POCs and decision records. Some technical pieces include: driving Enterprise Readiness of Halo, performance testing for massive scale, adoption of Blazor.",
-            "I moved into a senior, staff engineer-type-role. I'm currently in charge of 2 sprint teams and the delivery of 4 separate products. I also work with the CTO on technical strategy and medium/long term planning.",
+            "I then moved into a senior, staff engineer-type-role. I’m Currently in charge of a smaller team after requesting a move back to Senior Engineer. I also work with the CTO and CPO on technical strategy and medium/long term planning.",
             "I've learned a lot about leading Agile teams by studying and improving SDLCs. I have a reputation for running post mortems and promoting continuous improvement.",
-            "As a Dev Manager, I mentor a team of 7 developers, overseeing their professional and personal development. I've evidenced SMART objectives and successfully put forward business cases for promotion over the years.",
             "In 2025 I led my team in a 6 month team coaching programme in which our engineers stepped out of their comfort zones, we dealt with introversion vs extraversion, communication techniques, and conflict resolution. I'm currently finding ways to apply the tools from this coaching at Glasswall using psychometrics, verbal communication frameworks, and social contracts between teams.",
             "As an Agile Delivery Manager, my day-to-day includes working with the Product Owner and QA lead in a '3 amigos' approach to product backlog planning. I've learned a lot about what makes a good Product Owner - it takes a business mindset, and a vision which inspires engineering."
         ]
@@ -46,8 +45,8 @@
         "dateFrom": "Aug 2018",
         "dateTo": "July 2019",
         "details": [
-            "At Paramet, I made my start as a junior developer, working mainly in C# and MVC. It was here that I first started to enjoy frontend development and got exposed to one of the big JavaScript frameworks - Vue JS. Entity Framework in the data layer meant we could make it easy for customers to build and migrate SQL databases, so I learned a lot about being a DB Admin.",
-            "Paramet got its business from the fan engineering sector, making parts selection engines for big fan and pump manufacturers. These selection engines were a novel way for engineers to select fans and propellers given a required air volume and pressure. I learned a bit about fluid dynamics while we adapted the engine to work as a hydro Pump selection engine.",
+            "At Paramet, I made my start as a junior developer. It was here that I first started to enjoy frontend development and got exposed to one of the big JavaScript frameworks - Vue JS. Entity Framework in the data layer meant we could make it easy for customers to build and migrate SQL databases, so I learned a lot about being a DB Admin.",
+            "Paramet got its business from the fan engineering sector, making parts selection engines for big fan and pump manufacturers. I learned a bit about fluid dynamics while we adapted the engine to work as a hydro Pump selection engine.",
             "As a team of 5 or 6, everyone got involved with everything - participating in customer calls is where I first gained experience gathering requirements, and creating delivery plans."
         ]
     }
