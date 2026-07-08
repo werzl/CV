@@ -2,6 +2,7 @@
 ![CI](https://github.com/werzl/CV/workflows/CI/badge.svg)
 ![CD](https://github.com/werzl/CV/workflows/CD/badge.svg)
 
+
 A version controlled CV for Adam Hewitt.<br/> 
 See it live: [https://werzl.github.io/CV/](https://werzl.github.io/CV/).
 
